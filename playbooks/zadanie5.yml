@@ -1,0 +1,6 @@
+   - name: Playbook users_role, http_role, php_role
+     hosts: localhost
+     roles:
+       - users_role
+       - http_role
+       - php_role
